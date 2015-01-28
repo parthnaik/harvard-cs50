@@ -1,0 +1,11 @@
+0.  pneumonoultramicroscopicsilicovolcanoconiosis is the longest word in the dictionary.
+1.  getrusage returns a structure containing resource usage statistics.
+2.  16
+3.  Passing by reference saves on memory since multiple copies are not made.
+4.  The fgetc function read through a stream and returns a character as an unsigned integer or returns EOF constant if end of file is reached. The for loop keeps reading through the stream until end of file constant is reached. There are 3 possible conditions within the for loop. (1st) If the word begins with an apostrophe, we iterate until the end of that word or until we reach whitespace. If not we keep adding the encountered letters to a word array with a null character at the end of word. Further, if the word is too big it is ignored. (2nd) Words with digits in them are ignored. (3rd) If a word has been found, it is ended with a null character.
+5.  Using fgetc, we can iterate through the text letter-by-letter, which is more useful in this situation.
+6.  Using pointers as consts within a function, allows the function to read the data that is pointed to but prevents it from modifying the data.
+7. An array of the the structure nodes was used for storage. Each node contains a word and pointer to the next node i.e. a linked list. For the purposes of allocation, a hash function was used to determine where in the hash table to store the word.
+8. The speed was comparable to that of the staff solution.
+9. NA
+10. Running valgrind gives still reachable memory. I am unable to solve this.

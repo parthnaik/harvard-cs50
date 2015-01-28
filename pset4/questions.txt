@@ -1,0 +1,19 @@
+0.  BMP: 16.7 million colors, GIF: 256 colors , JPEG: 16.7 million colors, PNG: 16.7 million colors
+1.  GIF supports animation
+2.  In lossless compression, the file is simply disintegrated into pixels and then stitched back together without comprimise. In lossy compression, all unneccesary bits are eliminated to reduce image size at the expense of image quality.
+3.  JPEG is lossy compression.
+4.  On a FAT file system, the operating system removes any pointers to the particular files and moves it to a 'free' space cluster. This data is not overwritten and is still recoverable.
+5.  Apart from completely destroying the hard disk, a person could use commonly available tools to sanitize a disk. These tools basically overwite all the data in the hard disk with NULL values or random data.
+6.  A library that allows users to define custom sized integer variables, which can be useful in embedded programming.
+7.  We can fill up space with dummy data.
+8.  BYTE 8 bits, DWORD 32 bits, LONG 32 bits, WORD 16 bits
+9.  ASCII BM, Hex 0x424d, Decimal 16973
+10. bfSize is the total number of bytes in files, whereas biSize is the size of the header.
+11. biHeight being negative means the image begins from the top-left corner.
+12. biBitCount
+13. If the file has restricted access, the file may not be able to be opened.
+14. Since we are reading 1 struct.
+15. The padding would be 3 to make it a multiple of 4.
+16. fseek is used to move to a particular position in a file.
+17. SEEK_CUR is a constant specifying the current position of file pointer.
+18. Whodunit?
